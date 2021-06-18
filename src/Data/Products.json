@@ -1,0 +1,66 @@
+[
+    {
+        "id":1,
+        "name":"product one",
+        "picture":"https://sc04.alicdn.com/kf/H3744046327744293a2d34b2b987c504bz.jpg",
+        "category":"category",
+        "price":20,
+        "available_quantity":10
+    },
+    {
+        "id":2,
+        "name":"product two",
+        "picture":"https://sc04.alicdn.com/kf/H3744046327744293a2d34b2b987c504bz.jpg",
+        "category":"category2",
+        "price":100,
+        "available_quantity":10
+    },
+    {
+        "id":3,
+        "name":"product three",
+        "picture":"https://sc04.alicdn.com/kf/H3744046327744293a2d34b2b987c504bz.jpg",
+        "category":"category3",
+        "price":50,
+        "available_quantity":20
+    },
+    {
+        "id":4,
+        "name":"product foure",
+        "picture":"https://sc04.alicdn.com/kf/H3744046327744293a2d34b2b987c504bz.jpg",
+        "category":"category3",
+        "price":55,
+        "available_quantity":20
+    },
+    {
+        "id":5,
+        "name":"product five",
+        "picture":"https://sc04.alicdn.com/kf/H3744046327744293a2d34b2b987c504bz.jpg",
+        "category":"category3",
+        "price":60,
+        "available_quantity":20
+    },
+    {
+        "id":6,
+        "name":"product six",
+        "picture":"https://sc04.alicdn.com/kf/H3744046327744293a2d34b2b987c504bz.jpg",
+        "category":"category3",
+        "price":60,
+        "available_quantity":20
+    },
+    {
+        "id":7,
+        "name":"product seven",
+        "picture":"https://sc04.alicdn.com/kf/H3744046327744293a2d34b2b987c504bz.jpg",
+        "category":"category3",
+        "price":66,
+        "available_quantity":20
+    },
+    {
+        "id":8,
+        "name":"product eight",
+        "picture":"https://sc04.alicdn.com/kf/H3744046327744293a2d34b2b987c504bz.jpg",
+        "category":"category3",
+        "price":82,
+        "available_quantity":20
+    }
+]

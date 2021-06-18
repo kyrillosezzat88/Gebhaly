@@ -1,0 +1,41 @@
+.productCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    flex: 23% 0;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    .title{
+        color: #333;
+        margin-top: 8px;
+    }
+    .price{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 8px;
+    }
+    button{
+        padding: 5px 15px;
+        border: none;
+        background: #4454FF;
+        color: #fff;
+        cursor: pointer;
+        border: 1px solid #4454FF;
+        transition: all .4s ease-in-out;
+        &:hover{
+            background: #fff;
+            color: #000;
+            transition: all .4s ease-in-out;
+        }
+    }
+    &:hover{
+        box-shadow: 0 0 5px 0 rgb(185, 185, 185);
+        transition: all .4s ease-in-out;
+    }
+}

@@ -1,0 +1,58 @@
+@import '../../GlobalStyles/Colors';
+@import '../../GlobalStyles/Functions';
+.Cart{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    min-height: calc(100vh - 128px);
+    .Orders{
+        flex: 70% 1;
+        table{
+            width: 100%;
+            border: 1px solid $LightGrey;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin-bottom: 10px;
+            .product{
+                display: flex;
+                align-items: center;
+            }
+            th{
+                border-bottom: 1px solid $LightGrey;
+                text-align: left;
+            }
+            th , td{    
+                padding:15px 0;
+                margin: 5px 0;
+                span{
+                    border: 1px solid $LightGrey;
+                    padding: 5px 15px;
+                    cursor: pointer;
+                }
+                .count{
+                    border-left: none;
+                    border-right: none;
+                }
+                button{
+                    @include Button()
+                }
+            }
+        }
+    }
+    .prices{
+        flex: 28% 1;
+        padding:15px;
+        border: 1px solid $LightGrey;
+        border-radius: 5px;
+        height: 100px;
+        margin: 0px 10px;
+        .total{
+            display: flex;
+            justify-content: space-between;
+        }
+        button{
+            @include Button();
+        }
+    }
+}

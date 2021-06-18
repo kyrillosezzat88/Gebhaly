@@ -1,0 +1,9 @@
+@import '../../GlobalStyles/Colors';
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: $mainColor;
+    color: $White;
+    padding: 15px 0;
+}

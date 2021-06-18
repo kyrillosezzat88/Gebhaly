@@ -1,0 +1,8 @@
+.ProductList{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    @media all and (max-width:1024px) {
+        justify-content: center;
+    }
+}
